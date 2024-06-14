@@ -1,3 +1,5 @@
+output of docker ps -a
+---
 CONTAINER ID   IMAGE          COMMAND                  CREATED              STATUS                      PORTS     NAMES
 4ce38a312a2d   traefik        "/entrypoint.sh trae…"   About a minute ago   Up About a minute           80/tcp    hardcore_boyd
 55c3c876c44b   httpd:alpine   "httpd-foreground"       3 minutes ago        Exited (0) 10 seconds ago             objective_hermann

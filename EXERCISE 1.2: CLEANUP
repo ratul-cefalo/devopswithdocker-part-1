@@ -1,0 +1,7 @@
+output of docker ps -a
+---
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+output of docker image ls
+---
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
