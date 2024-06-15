@@ -1,0 +1,9 @@
+smart solution
+---
+docker run -it --name ex14 curlimages/curl sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+
+basic solution
+---
+one terminal: docker run -it --name ex14 ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+
+another terminal: docker exec -it ex14 bash -c "DEBIAN_FRONTEND=noninteractive apt update; apt install curl --yes"
